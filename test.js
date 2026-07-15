@@ -81,6 +81,11 @@ console.log(countries.indexOf("Nepal"));
 
 // task-12
 let words = ["Welcome", "to", "JavaScript"];
+console.log(words.join(" "));
+console.log(words.join("_"));
+console.log(words.join(","))
+
+
 
 
 
@@ -91,7 +96,12 @@ console.log(numbers.reverse())
 
 // task-14
 let names = ["John","Alex","Mary","Sara"];
+names.sort();
+console.log(names);
 
+let marks1 = [75,90,65,100,45];
+marks1.sort();
+console.log(marks1);
 
 
 // task-15
